@@ -8,7 +8,7 @@ Commands consist of a single letter, optionally preceded by one or two integers.
 The editor interface is freely inspired by that of the traditional editor Ed. 
 In some commands, the integers appearing in them represent address specifiers. 
 More precisely, an address specifier is a number n, expressed in decimal, which indicates the address of the n-th row; the first line of the text has address 1. 
-The supported commands are the following, with the convention that ind1,ind2 indicate two address specifiers such that ind1 ≤ ind2 and the parentheses are introduced for ease of reading this text, but not included in the command:
+The supported commands are the following, with the convention that ind1,ind2 indicate two address specifiers such that ind1 ≤ ind2 (note: the parentheses are introduced for ease of reading this text, but not included in the command):
 
 - (ind1,ind2)c 
 Changes the text on lines between ind1 and ind2 (which have to be considered included). 
